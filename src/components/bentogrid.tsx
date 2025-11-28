@@ -16,7 +16,7 @@ const LogoBeam = () => {
     <div className="flex items-center justify-center min-h-52">
       <div className="relative flex items-center">
         <div className="bg-[#000] border border-white/30  rounded-2xl flex items-center justify-center w-14 h-14 p-4">
-          <img src={logos[0]} alt="Logo 1" className="filter invert brightness-0" />
+          <img src={logos[0]} alt="KaaliDev Partner 1" className="filter invert brightness-0" />
         </div>
         <div className="relative" style={{ width: `${lineWidth}px`, height: `${lineHeight}px`, backgroundColor: '#FFFFFF', overflow: 'hidden' }}>
           <motion.div
@@ -33,7 +33,7 @@ const LogoBeam = () => {
           />
         </div>
         <div className="relative bg-black border-2 border-white/70 rounded-2xl flex items-center justify-center w-16 h-16 p-4 overflow-hidden shadow-[0_0_15px_5px_#dbe0e2]">
-          <img src={logos[1]} alt="Logo 2" className="filter invert brightness-0" />
+          <img src={logos[1]} alt="KaaliDev Partner 2" className="filter invert brightness-0" />
           <motion.div
             className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-30"
             initial={{ x: '-100%' }}
@@ -62,7 +62,7 @@ const LogoBeam = () => {
           />
         </div>
         <div className="bg-black border border-white/30 rounded-2xl flex items-center justify-center w-14 h-14 p-4">
-          <img src={logos[2]} alt="Logo 3" className="filter invert brightness-0" />
+          <img src={logos[2]} alt="KaaliDev Partner 3" className="filter invert brightness-0" />
         </div>
       </div>
     </div>
@@ -102,7 +102,7 @@ const CardWithEffect = ({ children }: { children: React.ReactNode }) => {
             background: '#5D2CA8',
             filter: 'blur(100px)',
             transform: 'translate(-0%, -0%)',
-            zIndex: 10, // Ensure the effect is on top
+            zIndex: 10,
             willChange: 'transform, top, left',
           }}
         />
@@ -119,7 +119,7 @@ const AWSIcon = () => {
     <div className="flex flex-col justify-center h-full items-center relative">
          <div className="flex flex-row gap-8 justify-center h-full items-center relative">
          <div className="relative bg-black border-2 border-white/70 rounded-2xl flex items-center justify-center w-16 h-16 p-4 overflow-hidden shadow-[0_0_15px_5px_#dbe0e2]">
-          <img src={logos[0]} alt="Logo 2" className="filter invert brightness-0" />
+          <img src={logos[0]} alt="KaaliDev Cloud Partner 1" className="filter invert brightness-0" />
           <motion.div
             className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-30"
             initial={{ x: '-100%' }}
@@ -134,7 +134,7 @@ const AWSIcon = () => {
           />
         </div>
         <div className="relative bg-black border-2 border-white/70 rounded-2xl flex items-center justify-center w-16 h-16 p-4 overflow-hidden shadow-[0_0_15px_5px_#dbe0e2]">
-          <img src={logos[1]} alt="Logo 2" className="filter invert brightness-0" />
+          <img src={logos[1]} alt="KaaliDev Cloud Partner 2" className="filter invert brightness-0" />
           <motion.div
             className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-30"
             initial={{ x: '-100%' }}
@@ -149,7 +149,7 @@ const AWSIcon = () => {
           />
         </div>
         <div className="relative bg-black border-2 border-white/70 rounded-2xl flex items-center justify-center w-16 h-16 p-4 overflow-hidden shadow-[0_0_15px_5px_#dbe0e2]">
-          <img src={logos[2]} alt="Logo 2" className="filter invert brightness-0" />
+          <img src={logos[2]} alt="KaaliDev Cloud Partner 3" className="filter invert brightness-0" />
           <motion.div
             className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-30"
             initial={{ x: '-100%' }}
@@ -167,8 +167,8 @@ const AWSIcon = () => {
 
       
       <div className="text-left p-6 mt-4">
-        <h1 className="text-white text-2xl font-bold mb-2">AWS Integration</h1>
-        <p className="text-gray-400 text-lg">integrate AWS and use seamlessly with us.</p>
+        <h1 className="text-white text-2xl font-bold mb-2">KaaliDev Cloud Sync</h1>
+        <p className="text-gray-400 text-lg">Connect global cloud platforms effortlessly through KaaliDev’s unified infrastructure pipeline.</p>
       </div>
     </div>
   );
@@ -211,10 +211,10 @@ const BentoBox1 = () => {
           <div className="flex flex-col justify-between h-full">
             <div className="mb-4 px-6 mt-6">
               <div className="flex justify-between items-center mb-6 pb-2">
-                <h2 className="text-white/70 text-xl">Sales Data</h2>
+                <h2 className="text-white/70 text-xl">KaaliDev Analytics</h2>
                 <div className="flex items-center">
                   <div className="h-1 bg-black w-8 rounded-lg"></div>
-                  <span className="ml-2 text-white/70 text-sm">Growth</span>
+                  <span className="ml-2 text-white/70 text-sm">Real-time</span>
                 </div>
               </div>
               <div ref={chartRef} className="relative w-full mt-12" style={{ height: chartHeight }}>
@@ -266,8 +266,8 @@ const BentoBox1 = () => {
               </div>
             </div>
             <div className="text-left p-6 mt-4">
-              <h1 className="text-white text-2xl font-bold mb-2">Incredible Growth</h1>
-              <p className="text-white/70 text-lg">Fly through your tasks with rapid-fire keyboard shortcuts for everything. Literally everything.</p>
+              <h1 className="text-white text-2xl font-bold mb-2">Growth Powered by KaaliDev</h1>
+              <p className="text-white/70 text-lg">Scale your workflows with KaaliDev’s high-efficiency automation ecosystem.</p>
             </div>
           </div>
         </CardWithEffect>
@@ -276,8 +276,8 @@ const BentoBox1 = () => {
             <div className="flex flex-col justify-center h-full">
               <LogoBeam />
               <div className="text-left p-6">
-                <h1 className="text-white text-2xl font-bold mb-2">Multiple Technologies</h1>
-                <p className="text-white/70 text-lg">Fly through your tasks with rapid-fire keyboard shortcuts for everything. Literally everything.</p>
+                <h1 className="text-white text-2xl font-bold mb-2">KaaliDev Tech Stack</h1>
+                <p className="text-white/70 text-lg">Empowering creators with a unified suite of modern technologies.</p>
               </div>
             </div>
           </CardWithEffect>
@@ -300,4 +300,3 @@ function Bentodemo() {
 }
 
 export default Bentodemo;
-          
