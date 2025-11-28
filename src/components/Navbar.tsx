@@ -1,4 +1,3 @@
-
 import LogoImage from '../assets/icons/logo.svg';
 import MenuIcon from '../assets/icons/menu.svg';
 
@@ -21,12 +20,12 @@ export const Navbar = () => {
       </div>
       <nav className='text-white gap-6 items-center hidden sm:flex'>
         
-        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition' >About</a>
+        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition' >About KaaliDev</a>
         <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Features</a>
-        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Updates</a>
-        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Help</a>
-        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Customers</a>
-        <button className='bg-white py-2 px-4 rounded-lg text-black'>Get for free</button>
+        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Platform Updates</a>
+        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Support</a>
+        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Creators</a>
+        <button className='bg-white py-2 px-4 rounded-lg text-black'>Get KaaliDev Free</button>
       </nav>
 
       </div>
