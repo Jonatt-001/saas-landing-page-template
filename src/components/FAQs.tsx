@@ -4,26 +4,27 @@ import PlusIcon from "../assets/icons/plus.svg";
 import MinusIcon from "../assets/icons/minus.svg";
 import clsx from "clsx";
 import {motion , AnimatePresence} from 'framer-motion';
+
 const items = [
   {
-    question: "What payment methods do you accept?",
+    question: "How does KaaliDev work?",
     answer:
-      "We accept all major credit cards, PayPal, and various other payment methods depending on your location. Please contact our support team for more information on accepted payment methods in your region.",
+      "KaaliDev combines powerful creation tools, automation workflows, and cloud-ready infrastructure into one unified ecosystem. Everything is optimized for speed, reliability, and a seamless creator experience.",
   },
   {
-    question: "How does the pricing work for teams?",
+    question: "Do I need technical experience to use KaaliDev?",
     answer:
-      "Our pricing is per user, per month. This means you only pay for the number of team members you have on your account. Discounts are available for larger teams and annual subscriptions.",
+      "Not at all. KaaliDev is designed to be intuitive for beginners while offering advanced capabilities for developers, creators, and teams who need deeper customization.",
   },
   {
-    question: "Can I change my plan later?",
+    question: "Can I switch plans as my workflow grows?",
     answer:
-      "Yes, you can upgrade or downgrade your plan at any time. Changes to your plan will be prorated and reflected in your next billing cycle.",
+      "Yes. You can upgrade or adjust your plan at any time. KaaliDev adapts to your workflow, whether you’re working solo or scaling with a large team.",
   },
   {
-    question: "Is my data secure?",
+    question: "How secure is my data on KaaliDev?",
     answer:
-      "Security is our top priority. We use state-of-the-art encryption and comply with the best industry practices to ensure that your data is stored securely and accessed only by authorized users.",
+      "We use enterprise-grade encryption, modern security protocols, and continuous monitoring to ensure your data stays protected across every layer of the platform.",
   },
 ];
 
